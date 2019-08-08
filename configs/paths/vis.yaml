@@ -1,0 +1,7 @@
+logdir: data/logs_vis # directory for training logs and checkpoints
+
+celeba_data_dir: data/datasets/celeba
+aflw_data_dir: data/datasets/aflw_release-2
+vis_data_dir: data/datasets/vos
+
+vgg16_path: data/models/vgg16.caffemodel.h5 # path to pretrained VGG16 for perceptual loss
